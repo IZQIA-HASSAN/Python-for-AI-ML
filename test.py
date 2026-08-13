@@ -1,11 +1,62 @@
-print("hello" , "wrold")
+# print("hello" , "wrold")
 
-my_age = 17
-my_name = "meerali"
-print(my_age , my_name)
+# my_age = 17
+# my_name = "meerali"
+# print(my_age , my_name)
 
-print(type(my_age))
+# print(type(my_age))
 
-account_balance = 12
+# account_balance = 12
 
-print(isinstance(account_balance , (int , float)))
+# print(isinstance(account_balance , (int , float)))
+
+# # strings 
+
+# name  = "hassan"
+
+# namer  = '''my name is hasan 
+# and i am learning python '''
+
+# print(name , namer)
+
+# quote = "quaid said 'work work and stop'"
+# print(quote)
+
+# msg= "it's a sunny day"
+# msg2 = "she said , \"hello!\""
+# print(msg , msg2)\
+
+# print("sunny" in msg)
+
+
+# mystring = "muhammad"
+# print(len(mystring))
+
+# print(mystring[-1])
+
+# sound = "ha"
+# anothersound = 3
+# fullsound = sound * anothersound
+# print(fullsound)
+
+# str1 = "izqia"
+# str2 = "hassan"
+# str4 = 23
+# str3 = str1 + str2
+# str5 = str1 + str4 
+# print(str5)
+# print(str3)
+
+name = "johndoe"
+age  = 18
+# fullname = "my name is " + name + " and my age is " + str(age)
+# print(fullname) 
+
+name_and_age = name
+name_and_age += str(age)
+
+print(name_and_age)
+
+interpolation = f'my nameis {name} and my age is {age} , good bye'
+print(interpolation)
+
