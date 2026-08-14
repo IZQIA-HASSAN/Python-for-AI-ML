@@ -60,3 +60,60 @@ print(name_and_age)
 interpolation = f'my nameis {name} and my age is {age} , good bye'
 print(interpolation)
 
+# slice in pytohn 
+my_str = "Hello world"
+print(my_str[2:-1])
+print(my_str[:-1])
+print(my_str[8:])
+print(my_str[:])
+print(my_str[0:8:2])
+print(my_str[::-1])
+
+# some common string methods
+
+school = "post graduate college mansehra "
+
+uppercase = school.upper()
+lower = school.lower()
+print(uppercase)
+print(lower)
+
+striping = school.strip()
+# works same as trim in javascript
+print(striping)  
+
+replaced = school.replace("post" , "mansehra")
+print(replaced)
+
+spliting = school.split()
+print(spliting)
+
+mylist = ["table" , "tennis"]
+joined = ' '.join(mylist)
+print(joined)
+# print(mylist.join(mylist))
+
+start = school.startswith(" post")
+print(start)
+
+ends = school.endswith(" ")
+print(ends)
+
+finder = school.find("mansehra")
+print(finder)
+
+counter = school.count("a")
+print(counter)
+
+cap = school.capitalize()
+print(cap)
+
+upp = school.isupper()
+print(upp)
+
+low = school.islower()
+print(low)
+
+capital = school.title()
+print(capital)
+
