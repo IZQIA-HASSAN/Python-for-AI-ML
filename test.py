@@ -117,3 +117,15 @@ print(low)
 capital = school.title()
 print(capital)
 
+
+age  = 13
+name = "ahmed khan"
+
+if age > 13 :
+    print("age is not verified")
+elif age <= 13:
+        print("age is eligible")
+else:
+        print("okay they are working")
+
+# identation matters alot in python
