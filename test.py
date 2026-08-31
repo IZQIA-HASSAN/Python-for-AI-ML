@@ -297,7 +297,33 @@ my_var = 10  # A global variable
 # print(farenhiet)
 
 
-numbers = [1,2,3,4,5]
-even_numbers = list(filter(lambda n:n%2 == 0 , numbers))
-print(even_numbers)
+# numbers = [1,2,3,4,5]
+# even_numbers = list(filter(lambda n:n%2 == 0 , numbers))
+# print(even_numbers)
+
+
+
+pizza = {
+    'name' : 'filipino',
+    'price' : 8.9,
+    'calories' : 250,
+    'toppings' :['mozilla' , 'basil']
+}
+
+
+# print(pizza.keys())
+# print(pizza.values())
+
+# print(pizza.items())
+
+# print(pizza.clear())
+
+print(pizza.pop('price' , 10))
+
+print(pizza.popitem())
+
+
+pizza.update({'price':20 , 'calories':300})
+print(pizza)
+
 
