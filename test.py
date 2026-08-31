@@ -188,26 +188,116 @@ my_var = 10  # A global variable
 # print(my_var)
 
 
-def apply_discount(price  , discount):
-    if not (isinstance(price , int) or isinstance(price , float)):
-        return "The price should be a number"
+# def apply_discount(price  , discount):
+#     if not (isinstance(price , int) or isinstance(price , float)):
+#         return "The price should be a number"
 
-    if not isinstance(discount, (int , float)):
-        return "The discount should be a number"
+#     if not isinstance(discount, (int , float)):
+#         return "The discount should be a number"
 
-    if price <=0 :
-        return "The price should be greater than 0"
+#     if price <=0 :
+#         return "The price should be greater than 0"
 
-    if discount <0 or discount >100:
-        return "The discount should be between 0 and 100" 
+#     if discount <0 or discount >100:
+#         return "The discount should be between 0 and 100" 
 
-    return price-(price * discount/100)
+#     return price-(price * discount/100)
 
 
-apply_discount(100 , 20)
-apply_discount(200 , 50)
-apply_discount(50 , 0)
-apply_discount(0 , 50)
-# apply_discount(90 , "a")
-apply_discount(74.5, 100)
-apply_discount(74.5, 20.0)
+# apply_discount(100 , 20)
+# apply_discount(200 , 50)
+# apply_discount(50 , 0)
+# apply_discount(0 , 50)
+# # apply_discount(90 , "a")
+# apply_discount(74.5, 100)
+# apply_discount(74.5, 20.0)
+
+
+# loops in python 
+
+# programming_languages = ['rust' , 'python' , 'cpp' , 'js']
+
+# for l in programming_languages:
+#     print(l)
+
+# for char in "meerali":
+#     print(char)
+
+# categries = ["low" , "high" , "intermediate"]
+# foods = ["carrot" , "cucumber" , "pineapple"]
+
+# for c in categries:
+#     for f in foods:
+        # print(c , f)
+
+
+
+
+
+# devs = ['fawas' , 'ali'  , 'ahmed']
+
+# for d in devs:
+#  if d == 'ali':
+#     continue
+#  print(d)
+
+# developer_names = ['Jess', 'Naomi', 'Tom']
+
+# for developer in developer_names:
+#     if developer == 'Naomi':
+#         continue
+#     print(developer)
+
+
+# words = ['sky' , 'apple' , 'rythm' , 'fly' , 'orange']
+
+# for word in words:
+#     for letter in word:
+#         if letter.lower() in 'aeiou':
+#             print(f"'{word}' contains vowel '{letter}'")
+#             break
+#     else:
+#         print(f"'{word}' has no vowels")
+
+
+# foods = ['biryani' , 'burger']
+
+# for f in foods:
+#     for i in f:
+#         if i.lower() in "aeiou":
+#             print(f"'{f}' constains a vowel '{i}'")
+#             break
+#     else:
+#         print(f"'{f}' has no vowel")
+
+
+# for num in range(40 , 0 , -10):
+#     print(num)
+
+# numbers = list(range(2,20,2))
+# print(numbers)
+
+# languages = ["arabic" , "hindko" , "spanish "]
+
+# print(list(enumerate(languages)))
+
+# for index , language in enumerate(languages, 2):
+#     print(index , language)
+
+
+# temp = [0 , 10 , 20 , 30 , 40]
+
+# def to_farenhiet(temp):
+
+#     return (temp* 9/5) + 32
+
+
+
+# farenhiet = list(map(to_farenhiet , temp))
+# print(farenhiet)
+
+
+numbers = [1,2,3,4,5]
+even_numbers = list(filter(lambda n:n%2 == 0 , numbers))
+print(even_numbers)
+
