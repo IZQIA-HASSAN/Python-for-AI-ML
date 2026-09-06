@@ -318,12 +318,64 @@ pizza = {
 
 # print(pizza.clear())
 
-print(pizza.pop('price' , 10))
+# print(pizza.pop('price' , 10))
 
-print(pizza.popitem())
-
-
-pizza.update({'price':20 , 'calories':300})
-print(pizza)
+# print(pizza.popitem())
 
 
+# pizza.update({'price':20 , 'calories':300})
+# print(pizza)
+
+
+# dictoniaries in python
+
+# student  = {
+#     "name" : "izqia",
+#     "age" : 22 , 
+#     "language" : "python"
+# }
+
+# student["city"] = "Mansehra"
+# student["age"] = 23
+# # print(student["city"])
+# # print(student["age"])
+
+# # del student["age"]
+# # print(student.keys())
+# # print(student.values())
+
+# for key , value in student.items():
+#     print(key, " : " ,value)
+
+
+# user = {
+#     "username" : "izqia",
+#     "address" : "mohallah raheedabad",
+#     "is_logged_in" : True,
+#     "skills" : ["python" , "javascript",  "Java"]
+# }
+
+# print(user)
+
+
+# sets in python
+# a set cannot contain multiple values
+
+# numbers  = {1,2,3,4}
+# numbers.add(45)
+# numbers.add(4)
+# numbers.remove(2)
+# numbers.discard(2)
+# print(4 in numbers)
+
+# users = ["ali" , "ali" , "ahmed" , "ahmed" , "raza"]
+# unique_users = set(users)
+# print(unique_users)
+
+# frontend = {"HTML", "CSS", "JavaScript", "React"}
+
+# backend = {"JavaScript", "Node.js", "MongoDB"}
+
+# print(frontend | backend)
+# print(frontend & backend)
+# print(frontend - backend)
